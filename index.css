@@ -1,0 +1,118 @@
+body {
+    font-size: 20px;
+    background-color: rgb(240, 240, 240);
+    /* background-image: url("https://i.pinimg.com/originals/d7/ee/17/d7ee1747b4a9f9c1a7364a0d4671a945.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+header {
+    height: 15vh;
+    width: 80%;
+    background-color: rgb(240, 240, 240);
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#aboutpic {
+    max-width: 500px;
+    max-height: 400px;
+    float: left;
+    padding-right: 10px;
+}
+
+main {
+    background-color: rgb(240, 240, 240);
+    font-family: 'Times New Roman', Times, serif;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+p {
+    opacity: 0.8;
+}
+
+nav {
+    opacity: 0.8;
+
+}
+
+hr {
+width: 80%;
+border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    opacity: 0.8;
+    background-color: rgb(240, 240, 240);
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+    padding: 0 15px;
+}
+
+#firstlink {
+    padding-left: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+}
+
+#submitbutton {
+    width: 25%;
+    height: 500px;
+}
+
+section img {
+    width: 30%;
+    min-width: 200px;
+    max-width: 265px;
+    height: 200px;
+    /* padding: 15px 2.1%; */
+    padding: 10px 5px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.firstpic{
+    padding-left: 0;
+}
+
+.lastpic {
+    padding-right: 0;
+}
+
+@media(max-width: 800px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    section {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media(min-width: 1100px) {
+    section {
+        display: flex;
+        justify-content: space-around;
+    }
+}
